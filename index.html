@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5ce8995bb5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;700&family=Roboto:ital,wght@0,500;1,400&display=swap"
+        rel="stylesheet">
+
+    <title>Dictionary</title>
+</head>
+
+<body class="body">
+
+    <div class="container">
+        <!-- Header part -->
+        <header>
+            <nav>
+                <div class="icons">
+                    <div class="book"><i class="fa-solid fa-book"></i></div>
+                    <div class="dark-mode"><!-- Rounded switch -->
+                        <label class="switch">
+
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+
+                        </label>
+                        <i class="fa-solid fa-moon"></i>
+                        
+                    </div>
+
+                </div>
+            </nav>
+        </header>
+        <div class="search-bar">
+            <input type="text" class="search" placeholder="Search for any word...">
+            <i class="fa-solid fa-magnifying-glass glass"></i>
+        </div>
+        <div class="word">
+            <h1 id="word">Dictionary</h1>
+            <button class="audio"><img src="./button-icon-png-21060.png" alt="" width="30px"> </button>
+        </div>
+
+        <!-- Main Part -->
+
+        <div class="noun">
+            <h3 class="pos1"></h3>
+                <hr>
+            <div class="meaning">
+                <p class="sorry">
+                    Sorry, we couldn't find definitions for the word you were looking for.</p>
+                <p id="mean">Meaning</p>
+                <ul class="ul">
+                
+                    
+                </ul>
+               
+
+            </div>
+
+
+
+
+        </div>
+        <div class="noun secondpof">
+            <h3 class="pos2"></h3>
+            <hr>
+            <div class="meaning2">
+               
+                <p id="mean">Meaning</p>
+                <ul class="ul secondul">
+                   
+                </ul>
+               
+
+            </div>
+
+
+
+
+        </div>
+        
+        
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
